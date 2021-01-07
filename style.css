@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(31, 30, 30);
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    width: 400px;
+    height: 550px;
+    position: relative;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.upper{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    font-size: 15px;
+}
+
+.logo {
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.html-logo {
+    width: 100%;
+}
+
+h5 {
+    position: relative;
+    margin: auto;
+}
+
+.heading { 
+    margin: 15px 15px 0px 0px;
+    position: relative;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.circle {
+    margin: 2px 0px 0px 93%;
+    float: right;
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.middle {
+    position: relative;
+}
+
+div[class="photo"] img {
+    position: relative;
+    width: 100%;
+}
+
+.icons {
+    height: 40px;
+    margin-left: 5px;
+}
+
+div[class="icons"] img {
+    position: relative;
+    width: 30px;
+    margin: 3px 3px 0px 3px;
+}
+
+.mark {
+    float: right;
+    width: 50px;
+}
+
+.like, .text {
+    margin-left:10px;
+}
